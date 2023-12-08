@@ -1,0 +1,155 @@
+* {
+  /* background-color: #abd4f2; */
+  min-width: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  height:fit-content ;
+  width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+  background-color: #FFC0D9;
+  border: black;
+  border-width: 3px 3px 0px 3px;
+  border-style: dotted;
+  
+}
+.mainbox{
+    height:fit-content ;
+    width: 100%;
+    background-color: #F9F9E0;
+    border: black;
+    border-width: 3px;
+    border-style: dotted;
+}
+b{
+  font-size: 20px;
+}
+b:hover{
+  font-size: 25px;
+}
+.profilesection{
+    margin-left: 20px;
+}
+img {
+  width: 100px;
+  border-radius: 20px 20px 20px  20px;
+}
+img:hover{
+  width: 200px;
+}
+u{
+  font-weight: bolder;
+  font-size: 22px;
+}
+span{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.skills {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+ 
+}
+.academic{
+  min-width: 0px;
+  background-color: #FFC0D9;
+  width: 450px;
+  height: 180px;
+  border: 10px solid #8ACDD7;
+  border-collapse: collapse;
+  padding: 27px;
+  margin-left: 20px;
+ max-width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .academic {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px; 
+    border-width: 10px; 
+  }
+}
+h2{
+margin-left: 20px;
+}
+table{
+    text-align:justify;
+  
+}
+.projects{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.contactme{
+text-align: center;
+font-size: large;
+}
+.formfill{
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #F9F9E0;
+  padding: 100px 100px 180px 100px;
+}
+
+label{
+  font-size: 17px;
+  font-weight: bolder;
+}
+input{
+  font-size: 17px;
+}
+
+.col-25{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row::after{
+  display: table;
+  clear: both;
+}
+input[type=submit]{
+  width: 150px;
+  height: 40px;
+ 
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+textarea{
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.social{
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.download{
+  text-align: center;
+  height: 75%;
+  width: 18%;
+  font-weight: bold;
+  color: black;
+  background-color: #8ACDD7;
+  border: 2px solid black;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
