@@ -1,9 +1,8 @@
 * {
   /* background-color: #abd4f2; */
   min-width: 0px;
-  font-family: "Sofia", sans-serif;
-
-  text-shadow: 3px 3px 3px #ababab;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 3px 0px 3px #ababab;
 }
 header {
   height:fit-content ;
