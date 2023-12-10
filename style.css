@@ -1,7 +1,9 @@
 * {
   /* background-color: #abd4f2; */
   min-width: 0px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Sofia", sans-serif;
+
+  text-shadow: 3px 3px 3px #ababab;
 }
 header {
   height:fit-content ;
